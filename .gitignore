@@ -1,0 +1,30 @@
+# Node / frontend
+node_modules/
+.npm/
+.vite/
+coverage/
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Mobile / Gradle
+**/.gradle/
+**/build/
+**/local.properties
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+
+# Python (in case tools create temporary files)
+__pycache__/
+*.pyc

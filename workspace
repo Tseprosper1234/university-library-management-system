@@ -1,0 +1,52 @@
+university-library-management/
+├── backend/
+│   ├── database/
+│   │   ├── db.js
+│   │   ├── migrate.js
+│   │   └── schema.sql
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── logger.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── books.js
+│   │   ├── borrowings.js
+│   │   ├── reservations.js
+│   │   ├── admin.js
+│   │   └── users.js
+│   ├── services/
+│   │   └── emailService.js
+│   ├── tests/
+│   │   └── auth.test.js
+│   ├── logs/
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── Register.js
+│   │   │   │   └── ForgotPassword.js
+│   │   │   ├── Admin/
+│   │   │   │   ├── Dashboard.js
+│   │   │   │   ├── BookManagement.js
+│   │   │   │   ├── UserManagement.js
+│   │   │   │   └── FineManagement.js
+│   │   │   ├── Books/
+│   │   │   │   ├── BookList.js
+│   │   │   │   └── BookDetails.js
+│   │   │   └── Borrowings/
+│   │   │       └── MyBorrowings.js
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── docker-compose.yml
+├── Dockerfile
+└── README.md
